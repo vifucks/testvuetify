@@ -1,0 +1,32 @@
+.sidebar-footer {
+	position: absolute;
+	width: 100%;
+	bottom: 0;
+	display: flex;
+}
+
+.sidebar-footer > a {
+	flex-grow: 1;
+	text-align: center;
+	height: 30px;
+	line-height: 30px;
+	position: relative;
+}
+
+.sidebar-footer > a .notification {
+	position: absolute;
+	top: 0;
+}
+.chiller-theme .sidebar-footer {
+	background: #3a3f48;
+	box-shadow: 0px -1px 5px #282c33;
+	border-top: 1px solid #464a52;
+}
+
+.chiller-theme .sidebar-footer > a:first-child {
+	border-left: none;
+}
+
+.chiller-theme .sidebar-footer > a:last-child {
+	border-right: none;
+}
